@@ -261,9 +261,10 @@ public class MahasiswaMenu extends JFrame {
 
     public void deleteData() {
         // Ini akan mengambil data nim dari baris yang diklik pada tabel.
-        String nim = selectedNim;
+         int selectedRow = productTable.getSelectedRow();
 
         try {
+            String nim = productTable.getModel().getValueAt(selectedRow, 0).toString();
             String sqlQuery = "DELETE FROM biodata WHERE NIM = '" + nim + "'";
             int rowsAffected = database.insertUpdateDeleteQuery(sqlQuery);
 
