@@ -17,17 +17,17 @@ Saya Julia Rahmawati dengan NIM 2400742 mengerjakan TP 4 dalam mata kuliah Desai
 
 #### Dokumentasi
 ###### 1. Insert Data 
-![gambar]Dokumentasi/Data_yang_diAdd.png
+![gambar](Dokumentasi/Data_yang_diAdd.png)
 ###### 2. Hasil Data 
-![gambar]Dokumentasi/Data_berhasil_ditambahkan.png
+![gambar](Dokumentasi/Data_berhasil_ditambahkan.png)
 ###### 3. Update Data 
-![gambar]Dokumentasi/Data_yang_akan_diUpdate.png
+![gambar](Dokumentasi/Data_yang_akan_diUpdate.png)
 ###### 4. Hasil Data 
-![gambar]Dokumentasi/Data_Terupdate.png
+![gambar](Dokumentasi/Data_Terupdate.png)
 ###### 5. Delete Data 
-![gambar]Delete_data.png
+![gambar](Delete_data.png)
 delete data nya masih gagal
 ###### 6. Jika Kolom Data Ada Yang Kosong 
-![gambar]Kolom_Ada_yg_Kosong.png
+![gambar](Kolom_Ada_yg_Kosong.png)
 ###### 7. Jika NIM Ada Yang Sama 
 ![gambar]Nim_Sama.png
