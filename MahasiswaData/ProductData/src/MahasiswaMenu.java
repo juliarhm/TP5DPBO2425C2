@@ -263,11 +263,6 @@ public class MahasiswaMenu extends JFrame {
         // Ini akan mengambil data nim dari baris yang diklik pada tabel.
         String nim = selectedNim;
 
-        // memastikan ada data yang di pilih
-        if (nim.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Tidak ada data yang dipilih untuk dihapus. Klik baris di tabel dulu!", "Error", JOptionPane.ERROR_MESSAGE);
-            return;
-        }
         try {
             String sqlQuery = "DELETE FROM biodata WHERE NIM = '" + nim + "'";
             int rowsAffected = database.insertUpdateDeleteQuery(sqlQuery);
